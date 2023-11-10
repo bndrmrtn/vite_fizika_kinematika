@@ -1,0 +1,3 @@
+<template>
+     <svg class="w-5 h-5 inline-block" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h48v48H0z" fill="none"></path><path d="M39.62 29.98 42 28.13l-2.85-2.85-2.38 1.85 2.85 2.85zm-.89-9.43L42 18 24 4l-5.83 4.53 15.75 15.75 4.81-3.73zM6.55 2 4 4.55l8.44 8.44L6 18l3.26 2.53L24 32l4.19-3.26 2.85 2.85-7.06 5.49L9.24 25.61 6 28.13l18 14 9.89-7.7L41.46 42 44 39.45 6.55 2z" fill="currentColor" class="fill-000000"></path></svg>
+</template>
