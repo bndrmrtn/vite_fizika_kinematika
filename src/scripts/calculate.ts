@@ -21,7 +21,7 @@ const calculate = (data: CalculatorFormData) => {
 const getDiagramData = (ftype: FuncType, func: (t: number, a: number, w: number) => number, steps: CalculatorStepsType, a: number, w: number, label: string): object => {
      const data: Array<number> = []
      const labels: Array<string> = []
-     for(let i = (steps.from || 0); i < (steps.to || 10); i += (steps.steps || 1)) {
+     for(let i = (steps.from || 0); i <= (steps.to || 10); i += (steps.steps || 1)) {
           data.push(func(i, a, w))
           labels.push('t(' + i + ')')
      }
