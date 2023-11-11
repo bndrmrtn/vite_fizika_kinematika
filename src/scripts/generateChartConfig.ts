@@ -12,6 +12,8 @@ export default (dataset: Array<number>, labels: Array<string>, label: string) =>
                          label: label,
                          backgroundColor: '#4ade80',
                          data: dataset,
+                         borderColor: "#6af79e",
+                         borderWidth: 3
                     }
                ]
           } as ChartData<"line", (number | Point | null)[], unknown>,
