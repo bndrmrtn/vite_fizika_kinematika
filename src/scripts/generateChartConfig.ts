@@ -10,7 +10,7 @@ export default (dataset: Array<number>, labels: Array<string>, label: string) =>
                datasets: [
                     {
                          label: label,
-                         backgroundColor: '#f87979',
+                         backgroundColor: '#4ade80',
                          data: dataset,
                     }
                ]
